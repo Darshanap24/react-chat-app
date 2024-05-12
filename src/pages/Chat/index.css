@@ -1,0 +1,71 @@
+.chat-page {
+    background-color: antiquewhite;
+}
+
+.header {
+    background-color: darkblue;
+    padding: 8px 16px;
+}
+
+.page-title {
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.page-description {
+    color: aliceblue;
+    font-size: 12px;
+}
+
+.content {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    background-color:azure;
+    padding: 30px;
+}
+
+.contact-item {
+    flex-direction: column;
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+    text-decoration: none;
+}
+
+.contact-name {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.contact-status {
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    padding: 16px;
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    width: 100%;
+}
+
+.input-container {
+    background-color: #ccc;
+    padding: 5px 10px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    margin-right: 10px;
+    height: 30px;
+    /* width: 100%; */
+}
+
+.send-btn {
+    padding: 8px 20px;
+}

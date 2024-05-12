@@ -1,0 +1,46 @@
+.home-page {
+    background-color: antiquewhite;
+}
+
+.header {
+    background-color: darkblue;
+    padding: 8px 16px;
+}
+
+.page-title {
+    color: aliceblue;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.page-description {
+    color: aliceblue;
+    font-size: 12px;
+}
+
+.home-content {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    background-color:azure;
+}
+
+.contact-item {
+    flex-direction: column;
+    padding: 12px;
+    border-bottom: 1px solid #ccc;
+    text-decoration: none;
+}
+
+.contact-name {
+    color: black;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.contact-status {
+    color: black;
+    font-size: 14px;
+    text-decoration: none;
+}
